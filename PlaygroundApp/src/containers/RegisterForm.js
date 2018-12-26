@@ -30,6 +30,7 @@ class RegisterForm extends React.Component {
             password: this.state.password,
             fullname: this.state.fullname,
         }
+        // send to api
         this.setState({ log: JSON.stringify(data) })
     }
 
