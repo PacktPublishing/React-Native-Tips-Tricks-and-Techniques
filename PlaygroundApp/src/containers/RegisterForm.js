@@ -1,5 +1,6 @@
 import React from 'react'
 import {
+    Button,
     SafeAreaView,
     View,
     Text,
@@ -15,10 +16,21 @@ class RegisterForm extends React.Component {
         super(props)
 
         this.state = {
-            username: null,
-            password: null,
-            fullname: null,
+            username: '',
+            password: '',
+            fullname: '',
+
+            log: null,
         }
+    }
+
+    register = () => {
+        const data = {
+            username: this.state.username,
+            password: this.state.password,
+            fullname: this.state.fullname,
+        }
+        this.setState({ log: JSON.stringify(data) })
     }
 
     render() {
@@ -46,6 +58,18 @@ class RegisterForm extends React.Component {
                     value={this.state.fullname}
                     onChangeText={text => this.setState({ fullname: text })}
                 />
+
+                <Button
+                    title='Register'
+                    onPress={this.register}
+                />
+
+                <Text>log</Text>
+                <View style={{ borderWidth: 1 }}>
+                    {this.state.log != null && (
+                        <Text>{this.state.log}</Text>
+                    )}
+                </View>
             </SafeAreaView>
         )
     }
