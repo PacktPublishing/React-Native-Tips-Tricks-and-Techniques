@@ -43,7 +43,7 @@ This course has been tested on the following system configuration:<br/>
 ## Section 1
 ### Video 1
 Relevant git tags:
-- `smart-dumb-components-start`: state of code before adding the components
+- [`smart-dumb-components-start`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/smart-dumb-components-start): state of code before adding the components
 - `smart-dumb-components`: state of code after adding the components
 ### Video 2
 Relevant git tags:
