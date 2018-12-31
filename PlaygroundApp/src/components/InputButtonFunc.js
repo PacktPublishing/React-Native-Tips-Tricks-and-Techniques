@@ -30,7 +30,7 @@ const InputButton = (props) => {
 InputButton.defaultProps = {
     inverted: false,
 }
-export default InputButton
+export default React.memo(InputButton)
 
 const styles = StyleSheet.create({
     button: {

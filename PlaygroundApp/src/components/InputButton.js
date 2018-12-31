@@ -6,7 +6,7 @@ import {
 } from 'react-native'
 
 export default
-class InputButton extends React.Component {
+class InputButton extends React.PureComponent {
     render() {
         const neutralColor = '#000'
         const highlightColor = '#f77b2e'
