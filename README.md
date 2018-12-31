@@ -49,3 +49,7 @@ Relevant git tags:
 Relevant git tags:
 - [`smart-dumb-components-start`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/smart-dumb-components-start): state of code before adding the components
 - [`smart-dumb-components`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/smart-dumb-components): state of code after adding the components
+### Video 3
+Relevant git tags:
+- [`pure-components-start`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/pure-components-start): state of code without pure components
+- [`pure-components`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/pure-components): state of code with pure components
