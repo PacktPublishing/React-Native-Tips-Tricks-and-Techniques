@@ -20,8 +20,13 @@ class InputButton extends React.PureComponent {
 
         return (
             <TouchableHighlight
-                style={[styles.button, { backgroundColor: buttonColor }]}
-                onPress={this.props.onPress}
+                {...this.props}
+                underlayColor='yellow'
+                style={[
+                    this.props.style,
+                    styles.button,
+                    { backgroundColor: buttonColor },
+                ]}
             >
                 <Text style={[styles.text, { color: textColor }]}>
                     {this.props.value}
