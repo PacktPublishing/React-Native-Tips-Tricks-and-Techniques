@@ -8,6 +8,9 @@ import {
 } from 'react-native'
 
 import InputField from '../components/InputField'
+import withOutline from '../components/withOutline'
+
+const InputFieldOutline = withOutline()(InputField)
 
 
 export default
@@ -45,7 +48,7 @@ class RegisterForm extends React.Component {
                     value={this.state.username}
                     onChangeText={text => this.setState({ username: text })}
                 />
-                <InputField
+                <InputFieldOutline
                     title='Password'
                     placeholder='password'
                     required
