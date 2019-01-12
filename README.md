@@ -41,15 +41,18 @@ This course has been tested on the following system configuration:<br/>
 * [Xcode 10: Tips, Tricks, and Techniques [Video]](https://www.packtpub.com/application-development/xcode-10-tips-tricks-and-techniques-video?utm_source=github&utm_medium=repository&utm_campaign=9781789614176)
 
 ## Section 1
-### Video 1
-Relevant git tags:
-- [`smart-dumb-components-start`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/smart-dumb-components-start): state of code before adding the components
-- [`smart-dumb-components`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/smart-dumb-components): state of code after adding the components
 ### Video 2
 Relevant git tags:
 - [`smart-dumb-components-start`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/smart-dumb-components-start): state of code before adding the components
 - [`smart-dumb-components`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/smart-dumb-components): state of code after adding the components
 ### Video 3
 Relevant git tags:
+- [`smart-dumb-components-start`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/smart-dumb-components-start): state of code before adding the components
+- [`smart-dumb-components`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/smart-dumb-components): state of code after adding the components
+### Video 4
+Relevant git tags:
 - [`pure-components-start`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/pure-components-start): state of code without pure components
 - [`pure-components`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/pure-components): state of code with pure components
+
+## Section 3
+### Video 3
