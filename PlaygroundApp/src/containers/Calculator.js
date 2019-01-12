@@ -1,5 +1,6 @@
 import React from 'react'
 import { SafeAreaView, View, StyleSheet } from 'react-native'
+import { compose } from 'ramda'
 
 import InputButton from '../components/InputButton'
 import withLongPressZoom from '../components/withLongPressZoom'
@@ -7,6 +8,10 @@ import withOutline from '../components/withOutline'
 
 const InputButtonZoom = withLongPressZoom(InputButton)
 const InputButtonOutline = withOutline({color: 'green', radius: 40})(InputButton)
+const InputButtonBoth = compose(
+    withOutline({color: 'green', radius: 40}),
+    withLongPressZoom,
+)(InputButton)
 
 
 const buttonsBottomUp = [
@@ -53,7 +58,7 @@ class Calculator extends React.Component {
                 {buttons.map((line, index) => (
                     <View key={`${index}`} style={styles.line}>
                         {line.map(value => (
-                            <InputButtonOutline
+                            <InputButtonBoth
                                 key={`${value}`}
                                 value={value}
                                 inverted={typeof value === 'string'}
