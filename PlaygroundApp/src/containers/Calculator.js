@@ -6,13 +6,14 @@ import InputButton from '../components/InputButton'
 import withLongPressZoom from '../components/withLongPressZoom'
 import withOutline from '../components/withOutline'
 
-const InputButtonZoom = withLongPressZoom(InputButton)
-const InputButtonOutline = withOutline({color: 'green', radius: 40})(InputButton)
+// const InputButtonWay1 = withHOC(InputButton)
+// const InputButtonWay2 = withHOC(InputButton, { color: 'green', radius: 40 })
+// const InputButtonWay3 = withHOC({ color: 'green', radius: 40 })(InputButton)
+
 const InputButtonBoth = compose(
-    withOutline({color: 'green', radius: 40}),
+    withOutline({ color: 'green', radius: 40 }),
     withLongPressZoom,
 )(InputButton)
-
 
 const buttonsBottomUp = [
     [7,  8 ,  9 , '/'],

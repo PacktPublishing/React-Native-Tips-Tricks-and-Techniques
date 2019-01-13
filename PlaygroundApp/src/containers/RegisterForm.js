@@ -10,7 +10,7 @@ import {
 import InputField from '../components/InputField'
 import withOutline from '../components/withOutline'
 
-const InputFieldOutline = withOutline()(InputField)
+const InputFieldOutline = withOutline({ radius: 2, color: 'green'})(InputField)
 
 
 export default

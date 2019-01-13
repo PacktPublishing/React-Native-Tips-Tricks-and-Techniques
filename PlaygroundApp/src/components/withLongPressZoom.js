@@ -5,7 +5,6 @@ import hoistNonReactStatic from 'hoist-non-react-statics'
 import { getDisplayName } from '../utils'
 
 
-
 /**
  * Override a function if it's defined, and do some extra work.
  * Return the original otherwise.
