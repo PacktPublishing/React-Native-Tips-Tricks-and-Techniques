@@ -4,16 +4,22 @@ import {
     Text,
     TextInput,
     StyleSheet,
+    SafeAreaView,
 } from 'react-native'
 
+
 const Screen = props => (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
         {props.Header}
-        {props.children}
-    </View>
+        <View style={styles.container}>
+            {props.children}
+        </View>
+        {props.TabBar}
+    </SafeAreaView>
 )
 Screen.defaultProps = {
-    Header: false,
+    Header: undefined,
+    TabBar: undefined,
 }
 export default Screen
 
