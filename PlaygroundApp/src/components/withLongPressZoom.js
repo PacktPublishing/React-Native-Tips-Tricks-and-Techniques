@@ -1,5 +1,9 @@
 import React from 'react'
 import { StyleSheet } from 'react-native'
+import hoistNonReactStatic from 'hoist-non-react-statics'
+
+import { getDisplayName } from '../utils'
+
 
 
 /**
@@ -19,7 +23,7 @@ const functionOverride = (originalFn, extraWork) => {
 }
 
 const withLongPressZoom = Component => {
-    return class WithLongPressZoom extends React.Component {
+    class WithLongPressZoom extends React.Component {
         constructor(props) {
             super(props)
 
@@ -49,6 +53,9 @@ const withLongPressZoom = Component => {
             )
         }
     }
+    WithLongPressZoom.displayName = `WithLongPressZoom(${getDisplayName(Component)})`
+    hoistNonReactStatic(WithLongPressZoom, Component)
+    return WithLongPressZoom
 }
 export default withLongPressZoom
 

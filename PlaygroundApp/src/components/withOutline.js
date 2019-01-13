@@ -1,9 +1,12 @@
 import React from 'react'
 import { View } from 'react-native'
+import hoistNonReactStatic from 'hoist-non-react-statics'
+
+import { getDisplayName } from '../utils'
 
 
 const withOutline = (config = { color: 'red', radius: 0 }) => Component => {
-    return (props) => (
+    const WithOutline = props => (
         <View
             style={{
                 borderWidth: 2,
@@ -14,5 +17,8 @@ const withOutline = (config = { color: 'red', radius: 0 }) => Component => {
             <Component {...props} />
         </View>
     )
+    WithOutline.displayName = `WithOutline(${getDisplayName(Component)})`
+    hoistNonReactStatic(WithOutline, Component)
+    return WithOutline
 }
 export default withOutline
