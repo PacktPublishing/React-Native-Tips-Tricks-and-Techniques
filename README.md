@@ -41,11 +41,7 @@ This course has been tested on the following system configuration:<br/>
 * [Xcode 10: Tips, Tricks, and Techniques [Video]](https://www.packtpub.com/application-development/xcode-10-tips-tricks-and-techniques-video?utm_source=github&utm_medium=repository&utm_campaign=9781789614176)
 
 ## Section 1
-### Video 2
-Relevant git tags:
-- [`smart-dumb-components-start`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/smart-dumb-components-start): state of code before adding the components
-- [`smart-dumb-components`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/smart-dumb-components): state of code after adding the components
-### Video 3
+### Video 2-3
 Relevant git tags:
 - [`smart-dumb-components-start`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/smart-dumb-components-start): state of code before adding the components
 - [`smart-dumb-components`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/smart-dumb-components): state of code after adding the components
@@ -54,5 +50,16 @@ Relevant git tags:
 - [`pure-components-start`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/pure-components-start): state of code without pure components
 - [`pure-components`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/pure-components): state of code with pure components
 
-## Section 3
+## Section 2
+### Video 1-2
+Relevant git tags:
+- [`higher-order-components-start`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/higher-order-components-start): state of code without higher order components
+- [`higher-order-components`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/higher-order-components): state of code with higher order components
 ### Video 3
+Relevant git tags:
+- [`render-props-start`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/render-props): state of code without render props
+- [`render-props`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/render-props): state of code with render props
+### Video 4
+Relevant git tags:
+- [`higher-order-components`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/higher-order-components): state of code with higher order components
+- [`render-props`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/render-props): state of code with render props
