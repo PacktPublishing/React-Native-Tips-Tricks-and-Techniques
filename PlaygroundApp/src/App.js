@@ -1,11 +1,12 @@
 import React from 'react'
-import { View, StyleSheet } from 'react-native'
+import { View, StyleSheet, Text, FlatList } from 'react-native'
 
 import Calculator from './containers/Calculator'
 import RegisterForm from './containers/RegisterForm'
 
 import InputButton from './components/InputButton'
 import InputField from './components/InputField'
+import Screen from './components/Screen'
 
 
 export default class App extends React.Component {
