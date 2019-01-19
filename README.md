@@ -57,9 +57,15 @@ Relevant git tags:
 - [`higher-order-components`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/higher-order-components): state of code with higher order components
 ### Video 3
 Relevant git tags:
-- [`render-props-start`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/render-props): state of code without render props
+- [`render-props-start`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/render-props-start): state of code without render props
 - [`render-props`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/render-props): state of code with render props
 ### Video 4
 Relevant git tags:
 - [`higher-order-components`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/higher-order-components): state of code with higher order components
 - [`render-props`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/render-props): state of code with render props
+
+## Section 3
+### Video 3
+Relevant git tags:
+- [`storybook-start`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/storybook-start): state of code when starting to add storybook
+- [`storybook`](https://github.com/pvinis/react-native-tips-tricks-techniques/tree/storybook): state of code after adding storybook
