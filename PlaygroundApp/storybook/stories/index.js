@@ -9,6 +9,9 @@ import Button from './Button';
 import CenterView from './CenterView';
 import Welcome from './Welcome';
 
+import InputButton from '../../src/components/InputButton'
+
+
 storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
 
 storiesOf('Button', module)
@@ -23,3 +26,12 @@ storiesOf('Button', module)
       <Text>😀 😎 👍 💯</Text>
     </Button>
   ));
+
+storiesOf('InputButton', module)
+.addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
+.add('normal', () => (
+  <InputButton value={3} />
+))
+.add('inverted', () => (
+  <InputButton value={3} inverted />
+))
