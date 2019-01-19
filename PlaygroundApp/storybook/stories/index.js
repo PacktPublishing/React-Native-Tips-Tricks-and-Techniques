@@ -20,5 +20,6 @@ stories
   <InputButton
     value={3}
     inverted={boolean('inverted', false)}
+    onPress={action('button clicked')}
   />
 ))
