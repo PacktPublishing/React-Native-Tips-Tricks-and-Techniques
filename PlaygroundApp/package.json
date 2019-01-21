@@ -36,6 +36,7 @@
     "react-dom": "16.6.3",
     "react-native-debugger-open": "^0.3.17",
     "react-test-renderer": "16.6.3",
+    "reactotron-react-native": "^2.1.4",
     "redux-devtools-extension": "^2.13.7"
   },
   "jest": {

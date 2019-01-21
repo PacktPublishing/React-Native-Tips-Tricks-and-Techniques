@@ -18,6 +18,7 @@ const InputFieldOutline = withOutline({ radius: 2, color: 'green'})(InputField)
 
 class RegisterFormRedux extends React.Component {
     render() {
+        console.log("render!")
         return (
             <SafeAreaView style={styles.container}>
                 <Text style={styles.title}>Register Form Redux</Text>
