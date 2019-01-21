@@ -4,7 +4,7 @@ import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension'
 
-import { setupReactotron } from './Reactotron'
+import Reactotron from './Reactotron'
 import rootReducer from './reducers'
 
 import Calculator from './containers/Calculator'
@@ -18,17 +18,12 @@ import Screen from './components/Screen'
 import ourHOC, { logProps } from './examples/HOCExample'
 
 
-if (__DEV__) {
-    setupReactotron()
-}
-
-
 class App extends React.Component {
     render() {
         return (
             <View style={styles.container}>
-                <Calculator />
-                {/* <RegisterFormRedux /> */}
+                {/* <Calculator /> */}
+                <RegisterFormRedux />
             </View>
         )
     }
@@ -43,7 +38,11 @@ const styles = StyleSheet.create({
 })
 
 
-const store = createStore(rootReducer, composeWithDevTools(
+let createStoreFn = createStore
+if (__DEV__) {
+    createStoreFn = Reactotron.createStore
+}
+const store = createStoreFn(rootReducer, composeWithDevTools(
     // if we have any middleware or enhancers:
     // applyMiddleware(..middleware),
     // other enhancers
