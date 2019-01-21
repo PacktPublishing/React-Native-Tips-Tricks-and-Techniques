@@ -2,6 +2,7 @@ import React from 'react'
 import { View, StyleSheet, Text, FlatList } from 'react-native'
 import { Provider } from 'react-redux'
 import { createStore } from 'redux'
+import { composeWithDevTools } from 'redux-devtools-extension'
 
 import rootReducer from './reducers'
 
@@ -36,7 +37,11 @@ const styles = StyleSheet.create({
 })
 
 
-const store = createStore(rootReducer)
+const store = createStore(rootReducer, composeWithDevTools(
+    // if we have any middleware or enhancers:
+    // applyMiddleware(..middleware),
+    // other enhancers
+))
 
 export default class ReduxApp extends React.Component {
     render() {
