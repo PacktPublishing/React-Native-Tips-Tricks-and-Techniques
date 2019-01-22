@@ -13,7 +13,7 @@ const logLevels = [
 
 logLevels.forEach(lvl => {
     Reporter[lvl] = (msg, props) => {
-        this.loggers.forEach(logger => logger.report(lvl, msg, props))
+        Reporter.loggers.forEach(logger => logger(lvl, msg, props))
     }
 })
 
@@ -28,7 +28,7 @@ const staticMetadata = {
 Reporter.loggers = [
     // console
     (lvl, msg, props) => {
-        console[lvl](msg, props)
+        console.log(`Console: ${lvl}`, msg, props)
     },
     
     // bugsnag

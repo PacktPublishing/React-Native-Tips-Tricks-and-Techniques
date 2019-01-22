@@ -1,10 +1,11 @@
 // import { NativeModules } from 'react-native'
-import {version as jsBuild} from './app.json'
+import {version as jsBuild} from '../../package.json'
 
 // let NativeAppInfo = NativeModules.AppInfoManager
 
 const AppInfo = {
-    BuildType: AppInfo.BuildType,
+    // BuildType: NativeAppInfo.BuildType,
+    BuildType: 'Beta',
     
     JsBuild: jsBuild,
     
