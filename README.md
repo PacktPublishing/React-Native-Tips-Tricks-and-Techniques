@@ -15,23 +15,24 @@ This course helps to provide the learner with valuable tips and tricks to help m
 <LI>Tips on using tools like FastLane and Greenkeeper </LI></UL></DIV>
 
 ## Instructions and Navigation
-### Assumed Knowledge
+### Assumed Knowledge<br/>
 To fully benefit from the coverage included in this course, you will need:<br/>
-To fully benefit from the coverage included in this course, you will need:
-●	Prior working knowledge of the JavaScript (ES5) language
-●	An understanding of basic React
-●	An understanding of basic React Native
+To fully benefit from the coverage included in this course, you will need:<br/>
+●	Prior working knowledge of the JavaScript (ES5) language<br/>
+●	An understanding of basic React<br/>
+●	An understanding of basic React Native<br/>
 
-### Technical Requirements
+### Technical Requirements<br/>
 This course has the following software requirements:<br/>
-This course has the following software requirements:
-●	A code editor like Visual Studio Code, Sublime Text, vim, emacs or other
-●	Node.js - Version 8+
-●	Yarn
-This course has been tested on the following system configuration:
-●	OS: macOS Mojave
-●	Processor: Intel i5
-●	Memory: 8GB
+This course has the following software requirements:<br/>
+●	A code editor like Visual Studio Code, Sublime Text, vim, emacs or other<br/>
+●	Node.js - Version 8+<br/>
+●	Yarn<br/>
+
+This course has been tested on the following system configuration:<br/>
+●	OS: macOS Mojave<br/>
+●	Processor: Intel i5<br/>
+●	Memory: 8GB<br/>
 
 
 ## Related Products
