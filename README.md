@@ -17,13 +17,11 @@ This course helps to provide the learner with valuable tips and tricks to help m
 ## Instructions and Navigation
 ### Assumed Knowledge<br/>
 To fully benefit from the coverage included in this course, you will need:<br/>
-To fully benefit from the coverage included in this course, you will need:<br/>
 ●	Prior working knowledge of the JavaScript (ES5) language<br/>
 ●	An understanding of basic React<br/>
 ●	An understanding of basic React Native<br/>
 
 ### Technical Requirements<br/>
-This course has the following software requirements:<br/>
 This course has the following software requirements:<br/>
 ●	A code editor like Visual Studio Code, Sublime Text, vim, emacs or other<br/>
 ●	Node.js - Version 8+<br/>
