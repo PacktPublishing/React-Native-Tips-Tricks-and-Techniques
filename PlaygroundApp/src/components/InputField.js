@@ -5,6 +5,7 @@ import {
     TextInput,
     StyleSheet,
 } from 'react-native'
+import { Fonts, Metrics } from '../ui';
 
 export default
 class InputField extends React.Component {
@@ -35,11 +36,12 @@ const styles = StyleSheet.create({
     },
     label: {
         flex: 1,
-        fontSize: 20,
+        fontFamily: Fonts.primary.bold,
+        fontSize: Fonts.size.inputFieldLabel,
     },
     input: {
         flex: 2,
         height: 30,
-        borderWidth: 1,
+        borderWidth: Metrics.borderThin,
     },
 })

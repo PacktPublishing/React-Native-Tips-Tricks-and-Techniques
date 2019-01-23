@@ -12,6 +12,8 @@ import * as actions from './actions'
 
 import InputField from '../components/InputField'
 import withOutline from '../components/withOutline'
+import { Fonts, Metrics, Styles, Colors } from '../ui'
+
 
 const InputFieldOutline = withOutline({ radius: 2, color: 'green'})(InputField)
 
@@ -47,10 +49,11 @@ class RegisterFormRedux extends React.Component {
                 <Button
                     title='Register'
                     onPress={this.props.registerUser}
+                    color={Colors.seaBlue}
                 />
 
                 <Text>log</Text>
-                <View style={{ borderWidth: 1 }}>
+                <View style={{ borderWidth: Metrics.borderThin }}>
                     {this.props.log != null && (
                         <Text>{this.props.log}</Text>
                     )}
@@ -81,9 +84,10 @@ export default connect(mapStateToProps, mapDispatchToProps)(RegisterFormRedux)
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+        marginHorizontal: Metrics.marginHorizontal,
     },
     title: {
-        fontSize: 40,
+        fontSize: Fonts.size.navBarTitle,
         textAlign: 'center',
     },
 })

@@ -4,12 +4,13 @@ import {
     TouchableHighlight,
     StyleSheet,
 } from 'react-native'
+import { Fonts, Colors } from '../ui';
 
 export default
 class InputButton extends React.PureComponent {
     render() {
-        const neutralColor = '#000'
-        const highlightColor = '#f77b2e'
+        const neutralColor = Colors.button
+        const highlightColor = Colors.buttonInverse
 
         const buttonColor = this.props.inverted
             ? neutralColor
@@ -50,6 +51,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
     text: {
-        fontSize: 20,
+        fontSize: Fonts.size.veryBig,
+        fontFamily: Fonts.secondary.base,
     },
 })

@@ -7,11 +7,13 @@ import {
     SafeAreaView,
 } from 'react-native'
 
+import { Styles } from '../ui'
+
 
 const Screen = props => (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView style={Styles.flex}>
         {props.Header}
-        <View style={styles.container}>
+        <View style={Styles.flex}>
             {props.children}
         </View>
         {props.TabBar}
@@ -22,9 +24,3 @@ Screen.defaultProps = {
     TabBar: undefined,
 }
 export default Screen
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-    },
-})
