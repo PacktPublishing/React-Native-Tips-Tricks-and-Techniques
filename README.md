@@ -8,13 +8,13 @@ This course helps to provide the learner with valuable tips and tricks to help m
 
 What You Will Learn<br/>
 
-•	Get to know the difference between “Smart” and “Dumb” components and when to use them.<br/><br/>
-•	Abstract logic using higher order components (HOC)<br/>
-•	Separation of concerns and useful techniques to of using it<br/>
-•	Tips for styling, using colors, fonts, and other metrics<br/>
-•	Tips on securing your application’s data with React Native Keychain<br/>
-•	Tips on testing approach and debugging<br/>
-•	Tips on using tools like FastLane and Greenkeeper<br/>
+●	Get to know the difference between “Smart” and “Dumb” components and when to use them.<br/>
+●	Abstract logic using higher order components (HOC)<br/>
+●	Separation of concerns and useful techniques to of using it<br/>
+●	Tips for styling, using colors, fonts, and other metrics<br/>
+●	Tips on securing your application’s data with React Native Keychain<br/>
+● Tips on testing approach and debugging<br/>
+●	Tips on using tools like FastLane and Greenkeeper<br/>
 
 Assumed Knowledge<br/>
 
