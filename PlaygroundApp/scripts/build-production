@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+lsof -n -i4TCP:8081 > /dev/null
+lsof_exit_code=$?
+
+if [[ "$lsof_exit_code" -ne 0 ]]; then
+  echo "Packager is not running. Starting.."
+  ./scripts/prepare
+  yarn start-bg
+fi
+
+bundle exec fastlane build_production
+code=$?
+
+if [[ "$lsof_exit_code" -ne 0 ]]; then
+  echo "Stopping packager.."
+  yarn stop
+fi
+
+exit $code

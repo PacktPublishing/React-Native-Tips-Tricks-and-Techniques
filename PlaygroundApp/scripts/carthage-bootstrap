@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+cd ios
+carthage bootstrap --platform "iOS" --no-use-binaries
+cd ..

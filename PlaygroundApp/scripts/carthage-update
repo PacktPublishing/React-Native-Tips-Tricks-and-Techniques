@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+cd ios
+carthage update --platform "iOS" --cache-builds --no-use-binaries
+cd ..

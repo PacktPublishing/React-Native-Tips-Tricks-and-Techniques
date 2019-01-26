@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+name=production-release
+
+# make and upload sourcemap
+yarn react-native bundle \
+  --platform ios \
+  --dev false \
+  --entry-file index.js \
+  --bundle-output "${name}.bundle" \
+  --sourcemap-output "${name}.bundle.map"
+
+version_string=$(./scripts/get-version-string)
+
+yarn upload-sourcemaps upload \
+  --api-key OUR_API_KEY \
+  --app-version "${version_string}" \
+  --minified-file "${name}.bundle" \
+  --source-map "${name}.bundle.map" \
+  --minified-url "main.jsbundle" \
+  --overwrite \
+  --upload-sources
+
+# upload symbols
+bugsnag-dsym-upload \
+  --api-key OUR_API_KEY \
+  ./builds/Our-Application-Production.app.dSYM.zip
+
+# upload the app
+bundle exec fastlane upload_appstore_itunes

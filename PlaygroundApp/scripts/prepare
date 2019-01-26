@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+bundle install
+
+yarn install
+
+# ./scripts/pod-install
+./scripts/carthage-bootstrap
