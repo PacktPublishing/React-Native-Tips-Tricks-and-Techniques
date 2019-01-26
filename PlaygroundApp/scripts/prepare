@@ -2,6 +2,7 @@
 
 bundle install
 
+nvm use
 yarn install
 
 # ./scripts/pod-install
