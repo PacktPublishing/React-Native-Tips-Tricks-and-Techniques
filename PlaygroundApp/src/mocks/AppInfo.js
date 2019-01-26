@@ -6,9 +6,9 @@ import {version as jsBuild} from '../../package.json'
 const AppInfo = {
     // BuildType: NativeAppInfo.BuildType,
     BuildType: 'Beta',
-    
+
     JsBuild: jsBuild,
-    
+
     // NativeBuild: NativeAppInfo.Build,
     NativeBuild: 1,
 
