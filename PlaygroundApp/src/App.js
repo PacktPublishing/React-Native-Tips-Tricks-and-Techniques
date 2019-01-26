@@ -4,7 +4,8 @@ import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension'
 
-import Reactotron from './Reactotron'
+import Reactotron from 'Reactotron'
+import FeatureToggles from 'FeatureToggles'
 import rootReducer from './reducers'
 
 import { Calculator, RegisterForm } from 'containers'
@@ -35,7 +36,7 @@ const styles = StyleSheet.create({
 
 
 let createStoreFn = createStore
-if (__DEV__) {
+if (FeatureToggles.reactotron) {
     createStoreFn = Reactotron.createStore
 }
 const store = createStoreFn(rootReducer, composeWithDevTools(

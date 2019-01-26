@@ -1,9 +1,11 @@
 import Reactotron from 'reactotron-react-native'
 import { reactotronRedux } from 'reactotron-redux'
 
+import FeatureToggles from 'FeatureToggles'
+
 
 let reactotron = null
-if (__DEV__) {
+if (FeatureToggles.reactotron) {
     reactotron = Reactotron
         .configure()
         .use(reactotronRedux())

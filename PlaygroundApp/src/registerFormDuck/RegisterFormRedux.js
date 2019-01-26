@@ -16,6 +16,7 @@ import {
 import { Fonts, Metrics, Styles, Colors } from 'ui'
 
 import * as actions from './actions'
+import FeatureToggles from '../FeatureToggles';
 
 
 const InputFieldOutline = withOutline({ radius: 2, color: 'green'})(InputField)
@@ -55,12 +56,14 @@ class RegisterFormRedux extends React.Component {
                     color={Colors.seaBlue}
                 />
 
-                <Text>log</Text>
-                <View style={{ borderWidth: Metrics.borderThin }}>
-                    {this.props.log != null && (
-                        <Text>{this.props.log}</Text>
-                    )}
-                </View>
+                {FeatureToggles.showLog && (<>
+                    <Text>log</Text>
+                    <View style={{ borderWidth: Metrics.borderThin }}>
+                        {this.props.log != null && (
+                            <Text>{this.props.log}</Text>
+                        )}
+                    </View>
+                </>)}
             </Screen>
         )
     }
