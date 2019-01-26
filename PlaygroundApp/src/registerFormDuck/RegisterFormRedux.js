@@ -12,6 +12,7 @@ import * as actions from './actions'
 
 import InputField from '../components/InputField'
 import withOutline from '../components/withOutline'
+import Screen from '../components/Screen'
 import { Fonts, Metrics, Styles, Colors } from '../ui'
 
 
@@ -22,7 +23,7 @@ class RegisterFormRedux extends React.Component {
     render() {
         // console.log("render!")
         return (
-            <SafeAreaView style={styles.container}>
+            <Screen>
                 <Text style={styles.title}>Register Form Redux</Text>
                 <InputField
                     title='Username'
@@ -58,7 +59,7 @@ class RegisterFormRedux extends React.Component {
                         <Text>{this.props.log}</Text>
                     )}
                 </View>
-            </SafeAreaView>
+            </Screen>
         )
     }
 }

@@ -7,11 +7,11 @@ import {
     SafeAreaView,
 } from 'react-native'
 
-import { Styles } from '../ui'
+import { Styles, Colors } from '../ui'
 
 
 const Screen = props => (
-    <SafeAreaView style={Styles.flex}>
+    <SafeAreaView style={[Styles.flex, { backgroundColor: Colors.background }]}>
         {props.Header}
         <View style={Styles.flex}>
             {props.children}

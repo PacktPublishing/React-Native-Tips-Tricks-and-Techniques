@@ -13,7 +13,7 @@
     "storybook": "storybook start",
     "test": "jest",
     "sim": "cuncurrently 'yarn ios' 'yarn android'",
-    "ios": "react-native run-ios --scheme Debug --configuration Debug --simulator=\"iPhone XS\"",
+    "ios": "react-native run-ios --simulator=\"iPhone XS\"",
     "android": "react-native run-android --variant debug",
     "postinstall": "rndebugger-open && yarn fix-that-git-repo",
     "fix-that-git-repo": "cd node_modules/some-git-dep && test ! -d dist && yarn || true",
