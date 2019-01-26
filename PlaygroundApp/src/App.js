@@ -7,14 +7,10 @@ import { composeWithDevTools } from 'redux-devtools-extension'
 import Reactotron from './Reactotron'
 import rootReducer from './reducers'
 
-import Calculator from './containers/Calculator'
-import RegisterForm from './containers/RegisterForm'
-import RegisterFormRedux from './registerFormDuck'
+import { Calculator, RegisterForm } from 'containers'
+import RegisterFormRedux from 'registerFormDuck'
 
-
-import InputButton from './components/InputButton'
-import InputField from './components/InputField'
-import Screen from './components/Screen'
+import { Screen, InputField, InputButton } from 'components'
 import ourHOC, { logProps } from './examples/HOCExample'
 
 

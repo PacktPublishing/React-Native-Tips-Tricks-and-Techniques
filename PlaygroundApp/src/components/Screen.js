@@ -7,7 +7,7 @@ import {
     SafeAreaView,
 } from 'react-native'
 
-import { Styles, Colors } from '../ui'
+import { Styles, Colors } from 'ui'
 
 
 const Screen = props => (

@@ -8,12 +8,14 @@ import {
 } from 'react-native'
 import { connect } from 'react-redux'
 
-import * as actions from './actions'
+import {
+    InputField,
+    Screen,
+    withOutline,
+} from 'components'
+import { Fonts, Metrics, Styles, Colors } from 'ui'
 
-import InputField from '../components/InputField'
-import withOutline from '../components/withOutline'
-import Screen from '../components/Screen'
-import { Fonts, Metrics, Styles, Colors } from '../ui'
+import * as actions from './actions'
 
 
 const InputFieldOutline = withOutline({ radius: 2, color: 'green'})(InputField)
