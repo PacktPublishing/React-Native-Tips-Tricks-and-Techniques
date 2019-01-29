@@ -5,7 +5,6 @@
 - [`smart-dumb-components-start`](https://github.com/PacktPublishing/React-Native-Tips-Tricks-and-Techniques/tree/smart-dumb-components-start)
 - [`smart-dumb-components`](https://github.com/PacktPublishing/React-Native-Tips-Tricks-and-Techniques/tree/smart-dumb-components)
 ### Video 4
-- [`pure-components-start`](https://github.com/PacktPublishing/React-Native-Tips-Tricks-and-Techniques/tree/pure-components-start)
 - [`pure-components`](https://github.com/PacktPublishing/React-Native-Tips-Tricks-and-Techniques/tree/pure-components)
 ## Section 2
 ### Video 1-2
