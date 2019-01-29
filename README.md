@@ -11,7 +11,7 @@ This course helps to provide the learner with valuable tips and tricks to help m
 <LI>Separation of concerns and useful techniques to of using it 
 <LI>Tips for styling, using colors, fonts, and other metrics 
 <LI>Tips on securing your application’s data with React Native Keychain 
-<LI>Tips on testing approach and debugging&nbsp; 
+<LI>Tips on testing approach and debugging; 
 <LI>Tips on using tools like FastLane and Greenkeeper </LI></UL></DIV>
 
 ## Instructions and Navigation
