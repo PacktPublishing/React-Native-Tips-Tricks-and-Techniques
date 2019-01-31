@@ -1,7 +1,7 @@
 # React Native: Tips, Tricks, and Techniques [Video]
 This is the code repository for [React Native: Tips, Tricks, and Techniques [Video]](https://www.packtpub.com/web-development/react-native-tips-tricks-and-techniques-video?utm_source=github&utm_medium=repository&utm_campaign=9781789615180), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
 ## About the Video Course
-This course helps to provide the learner with valuable tips and tricks to help make the development process easier, and less tedious. They will find tips about reusable logic with Higher Order Components, tips for better application security, tips on styling and separation of concerns. They will be getting some useful & cool tips on using tools like fastlane & greenkeeper for faster React Native development, as well as reactotron, react-native-debugger and making their own logger for debugging and analytics. Finally, some tips and useful scripts they can use, and a nice way to use feature flags for their applications.
+This course helps to provide the learner with valuable tips and tricks to help make the development process easier, and less tedious. They will find tips about reusable logic with Higher Order Components, tips for better upgrading, tips on styling and separation of concerns. They will be getting some useful & cool tips on using tools for faster React Native development, such as reactotron, react-native-debugger and making their own logger for debugging and analytics Finally, some tips and useful scripts they can use, and a nice way to use feature flags for their applications.
 
 <H2>What You Will Learn</H2>
 <DIV class=book-info-will-learn-text>
@@ -18,7 +18,7 @@ This course helps to provide the learner with valuable tips and tricks to help m
 ## Instructions and Navigation
 ### Assumed Knowledge<br/>
 To fully benefit from the coverage included in this course, you will need:<br/>
-●	Prior working knowledge of the JavaScript (ES5) language<br/>
+●	Prior working knowledge of the JavaScript language<br/>
 ●	An understanding of basic React<br/>
 ●	An understanding of basic React Native<br/>
 
@@ -35,8 +35,6 @@ This course has been tested on the following system configuration:<br/>
 
 
 ## Related Products
-* [C# 7.x Tips, Tricks, and Techniques [Video]](https://www.packtpub.com/application-development/c-7x-tips-tricks-and-techniques-video?utm_source=github&utm_medium=repository&utm_campaign=9781789341553)
-
 * [SWIFT 4.2: Tips, Tricks, and Techniques [Video]](https://www.packtpub.com/application-development/swift-42-tips-tricks-and-techniques-video?utm_source=github&utm_medium=repository&utm_campaign=9781789610680)
 
 * [Xcode 10: Tips, Tricks, and Techniques [Video]](https://www.packtpub.com/application-development/xcode-10-tips-tricks-and-techniques-video?utm_source=github&utm_medium=repository&utm_campaign=9781789614176)
